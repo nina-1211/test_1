@@ -13,7 +13,7 @@
         <li><img src="/清子 我的好朋友 兔兔們.png" alt=""></li>
         <li>
             <div class="card" style="width: 20rem;">
-                <form action="/action_page.php">
+                <form id="login">
                   <h1>Sign in</h1>
                   <h6>Sign in with Open account</h6>
                   <br>
@@ -22,15 +22,15 @@
                       <button class="applebtn"><i class="bi bi-google mx-2"></i>Apple ID</button>
                   </div><br>
                   <h6>Or continue with email address</h6>
-                  <input class="mx-2 mt-2 py-2" type="email" id="fname" name="fname" placeholder="Email address or phone number">
-                  <input class="mx-2 mt-2 py-2" type="password" id="lname" name="lname" placeholder="Password"><br>
-                  <button class="btn btn-primary mx-2 mb-2">Start trading</button>
+                  <input class="mx-2 mt-2 py-2" type="email" id="email" placeholder="Email address or phone number">
+                  <input class="mx-2 mt-2 py-2" type="password" id="password"  placeholder="Password"><br>
+                  <input type="submit" class="btn btn-primary mx-2 mb-2" id="btn1" value="Login">
                   
                 </form>
               </div>
 
         </li>
     </ul>
-    
+    <script src="app.js"></script>
 </body>
 </html>
