@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    margin-top: 80px;
+    margin-left: 100px;
+    border: none !important;
+    background-color: rgb(248, 244, 240) !important;
+}
+h1{
+    font-family: sans-serif;
+}
+button{
+    text-align: left;
+}
+img{
+    width: 400px;
+    margin-top:80px;
+    margin-left: 150px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.applebtn{
+    margin-left: 20px;
+    border: none;
+    padding:10px 15px;
+    border-radius: 50px;
+    
+}
+.googlebtn{
+    border: none;
+    padding:10px 15px;
+    border-radius: 50px;
+}
+.btn-primary{
+    border-radius: 50px !important;
+}
+body{
+    background-color: rgb(249, 245, 239) !important;
+}
