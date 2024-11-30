@@ -1,1 +1,51 @@
+form{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding: 20px;
+}
+.card{
+    margin-top: 80px;
+    margin-left: 600px;
+    border: none !important;
+}
+button{
+    text-align: left;
+}
+img{
+    width: 400px;
+    margin-top:80px;
+    margin-left: 150px;
+}
+.applebtn{
+    margin-left: 20px;
+    border: none;
+    padding:10px 15px;
+    border-radius: 50px;
+    
+}
+.googlebtn{
+    border: none;
+    padding:10px 15px;
+    border-radius: 50px;
+}
+li{
+    list-style: none;
 
+}
+#btn1{
+    width:160px;
+    justify-content: center;
+    align-items: center;
+}
+#signup{
+    color:blue;
+    text-align: center;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+}
+body{
+    background-color: rgb(239, 238, 238) !important;
+}
